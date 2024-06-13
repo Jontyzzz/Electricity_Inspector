@@ -1,0 +1,68 @@
+{"code":"PROTOCOL_CONNECTION_LOST","fatal":true,"level":"error","timestamp":"2024-02-03T07:13:08.800Z"}
+{"code":"ECONNRESET","errno":-4077,"fatal":true,"level":"error","syscall":"read","timestamp":"2024-02-03T12:13:28.492Z"}
+{"code":"ECONNRESET","errno":-4077,"fatal":true,"level":"error","syscall":"read","timestamp":"2024-02-03T12:16:19.152Z"}
+{"level":"error","timestamp":"2024-02-03T12:40:53.349Z"}
+{"code":"PROTOCOL_CONNECTION_LOST","fatal":true,"level":"error","timestamp":"2024-02-05T05:20:19.713Z"}
+{"code":"ECONNRESET","errno":-4077,"fatal":true,"level":"error","syscall":"read","timestamp":"2024-02-05T05:21:41.578Z"}
+{"code":"ECONNRESET","errno":-4077,"fatal":true,"level":"error","syscall":"read","timestamp":"2024-02-05T06:26:42.052Z"}
+{"code":"ECONNRESET","errno":-4077,"fatal":true,"level":"error","syscall":"read","timestamp":"2024-02-05T07:42:02.743Z"}
+{"code":"PROTOCOL_CONNECTION_LOST","fatal":true,"level":"error","timestamp":"2024-02-06T12:57:35.666Z"}
+{"code":"PROTOCOL_CONNECTION_LOST","fatal":true,"level":"error","timestamp":"2024-02-08T05:59:43.908Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry 'Om5221@gmail.com' for key 'email'","sql":"INSERT INTO login (`email`, `password`) VALUES (?,?)","sqlMessage":"Duplicate entry 'Om5221@gmail.com' for key 'email'","sqlState":"23000","timestamp":"2024-02-10T05:35:07.113Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry 'pratibha333@gmail.com' for key 'email'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry 'pratibha333@gmail.com' for key 'email'","sqlState":"23000","timestamp":"2024-02-13T06:38:05.643Z"}
+{"level":"error","message":"Bind parameters must not contain undefined. To pass SQL NULL specify JS null","timestamp":"2024-02-13T12:01:57.850Z"}
+{"code":"PROTOCOL_CONNECTION_LOST","level":"error","message":"Connection lost: The server closed the connection.","timestamp":"2024-02-14T12:54:33.216Z"}
+{"code":"ER_TOO_MANY_USER_CONNECTIONS","errno":1203,"level":"error","message":"User indiscpx_BLVL already has more than 'max_user_connections' active connections","sqlMessage":"User indiscpx_BLVL already has more than 'max_user_connections' active connections","sqlState":"42000","timestamp":"2024-02-18T17:09:35.028Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"read ECONNRESET","timestamp":"2024-02-19T07:48:33.877Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"read ECONNRESET","timestamp":"2024-02-19T07:58:23.577Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"read ECONNRESET","timestamp":"2024-02-19T08:05:50.119Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"read ECONNRESET","timestamp":"2024-02-19T08:10:10.982Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"read ECONNRESET","timestamp":"2024-03-06T07:46:56.385Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"read ECONNRESET","timestamp":"2024-03-06T07:55:49.623Z"}
+{"code":"EHOSTUNREACH","errno":-4073,"level":"error","message":"connect EHOSTUNREACH 103.195.185.168:3306","timestamp":"2024-03-06T12:31:46.237Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-13T11:21:20.714Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry '2147483647' for key 'PRIMARY'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry '2147483647' for key 'PRIMARY'","sqlState":"23000","timestamp":"2024-03-15T06:13:58.357Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry '2147483647' for key 'PRIMARY'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry '2147483647' for key 'PRIMARY'","sqlState":"23000","timestamp":"2024-03-15T06:28:11.482Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry '2147483647' for key 'PRIMARY'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry '2147483647' for key 'PRIMARY'","sqlState":"23000","timestamp":"2024-03-15T06:42:21.334Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry '2147483647' for key 'PRIMARY'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry '2147483647' for key 'PRIMARY'","sqlState":"23000","timestamp":"2024-03-16T10:17:57.978Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry '2147483647' for key 'PRIMARY'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry '2147483647' for key 'PRIMARY'","sqlState":"23000","timestamp":"2024-03-23T07:18:43.509Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry '2147483647' for key 'PRIMARY'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry '2147483647' for key 'PRIMARY'","sqlState":"23000","timestamp":"2024-03-23T07:21:27.221Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry '' for key 'PRIMARY'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry '' for key 'PRIMARY'","sqlState":"23000","timestamp":"2024-03-23T07:38:15.612Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:11.069Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:14.064Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:15.370Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:21.099Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:24.096Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:25.278Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:25.386Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:26.043Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T05:00:46.791Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T06:47:09.046Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T06:47:19.083Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T06:47:29.111Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T06:47:38.341Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-27T06:47:39.128Z"}
+{"code":"ER_DUP_ENTRY","errno":1062,"level":"error","message":"Duplicate entry 'donald333@gmail.com' for key 'email'","sql":"INSERT INTO login (`name`, `email`, `password`) VALUES (?,?,?)","sqlMessage":"Duplicate entry 'donald333@gmail.com' for key 'email'","sqlState":"23000","timestamp":"2024-03-27T07:08:06.800Z"}
+{"code":"ER_TOO_MANY_USER_CONNECTIONS","errno":1203,"level":"error","message":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlMessage":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlState":"42000","timestamp":"2024-03-28T11:14:20.592Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-28T12:19:04.505Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-03-30T05:43:34.619Z"}
+{"code":"ER_TOO_MANY_USER_CONNECTIONS","errno":1203,"level":"error","message":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlMessage":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlState":"42000","timestamp":"2024-03-30T05:53:24.579Z"}
+{"code":"ER_TOO_MANY_USER_CONNECTIONS","errno":1203,"level":"error","message":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlMessage":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlState":"42000","timestamp":"2024-03-30T05:55:24.513Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-01T06:26:20.622Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-01T06:26:20.850Z"}
+{"code":"ER_TOO_MANY_USER_CONNECTIONS","errno":1203,"level":"error","message":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlMessage":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlState":"42000","timestamp":"2024-04-02T05:59:36.178Z"}
+{"code":"ER_TOO_MANY_USER_CONNECTIONS","errno":1203,"level":"error","message":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlMessage":"User indiscpx_PVP already has more than 'max_user_connections' active connections","sqlState":"42000","timestamp":"2024-04-02T05:59:39.771Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-02T07:22:12.315Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T06:04:57.437Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T06:05:47.140Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T11:40:16.039Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:00:16.347Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:00:41.338Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:01:28.330Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:03:16.329Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:04:16.308Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:05:17.358Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:30:45.032Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:39:53.653Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-03T12:48:42.736Z"}
+{"code":"ETIMEDOUT","level":"error","message":"connect ETIMEDOUT","timestamp":"2024-04-04T07:52:27.757Z"}

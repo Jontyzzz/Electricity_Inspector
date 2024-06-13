@@ -1,0 +1,563 @@
+/* Table Styles */
+/* Table Styles */
+table {
+  margin: .4px auto 0;
+  /* Center the table and remove top margin */
+  border-collapse: collapse;
+  width: 100%;
+  /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add a subtle box shadow */
+}
+
+th,
+td {
+  padding: 12px;
+  /* Increase padding for better spacing */
+  border: 1.9px solid #000000;
+  background-color: white
+}
+
+.stth {
+  text-align: left;
+  background-color: #2d2d2d;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+/* Add hover effect for better user interaction */
+th:hover,
+td:hover {
+  background-color: #bbbbbb;
+  transition: background-color 0.3s ease;
+}
+
+/* Optional: Add rounded corners to the table */
+table {
+  border-radius: 8px;
+}
+
+/* Optional: Style the header row differently */
+thead th {
+  background-color: #ffffff;
+  color: #fff;
+}
+
+/* Optional: Add a subtle border to the table */
+table {
+  border: 2px solid #999999cb;
+}
+
+/* Optional: Adjust spacing for better aesthetics */
+th,
+td {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+/* Optional: Add a subtle border radius to cells */
+th,
+td {
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Logo and Navbar Styles */
+.left-logo {
+  margin-left: 0.10rem;
+  size: 10rem;
+}
+
+.right-logo {
+  margin-right: 0.6rem;
+  height: 100%;
+}
+
+
+
+/* .title {
+  color: rgb(178, 0, 0);
+  align-items: center;
+} */
+
+.li {
+  list-style: none;
+}
+
+
+
+
+.myNavBar label,
+.myNavBar input,
+.myNavBar button {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.myDiv1,
+.myDiv2 {
+  display: inline-block;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+
+
+/* Graph Styles */
+.container {
+  display: flex;
+  background-color: #fff;
+  padding: 0%;
+}
+
+#id1 {
+  color: aqua;
+}
+
+#id1 {
+  color: rgb(107, 183, 144);
+}
+
+.box {
+  width: 50%;
+  /* Each box takes up half of the container */
+  border: 1px solid #000000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.roz {
+  border: 2px solid #0a0a0a;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  /* Adds some spacing between the boxes */
+}
+
+
+/* Color Styles */
+.color {
+  border-color: rgb(245, 245, 245);
+  border: thick;
+}
+
+.backend {
+  background: url('https://images.unsplash.com/photo-1530177150700-84cd9a3b059b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+  background-color: #8B4513;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Set the opacity to 50% */
+  background-color: rgba(139, 69, 19, 0.5);
+}
+
+.center2 {
+  margin: auto;
+  width: 65%;
+  border: 3px solid rgb(3, 3, 3);
+  padding: 3px;
+}
+
+.Backenddd {
+  background-image: url("https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card-body {
+  background-color: #0a0a0a;
+}
+
+
+
+.Runn {
+  border: 3px solid #3e3b3b;
+  /* You can adjust the width and color as needed */
+  padding: 10px;
+  /* Optional: Add padding for better appearance */
+}
+
+.Runn1 {
+  border: 4px solid #656461;
+  /* You can adjust the width and color as needed */
+  padding: 5px;
+  /* Optional: Add padding for better appearance */
+  background-color: hsl(78, 70%, 69%);
+}
+
+.Runn2 {
+  border: 4px solid #817e76;
+  /* You can adjust the width and color as needed */
+  padding: 5px;
+  /* Optional: Add padding for better appearance */
+  background-color: hsl(78, 70%, 69%); 
+}
+
+
+.RM {
+  border: 2px solid #686868;
+  background-color: #d7d7d7;
+  padding: 6px;
+}
+
+.navclr {
+  background-color: rgb(0, 0, 0);
+}
+
+/* sanket csssss */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #040404;
+  overflow: hidden;
+  height: 79px;
+}
+
+
+
+.left-components {
+  float: left;
+}
+
+.right-components {
+  float: right;
+}
+
+/* Add the following styles to clear the float and start on a new line */
+.right-components img {
+  clear: both;
+}
+
+
+
+.logbtn:hover {
+  text-decoration: underline;
+}
+
+.imgs {
+  width: 78px;
+  height: 78px;
+  margin: 0;
+
+}
+
+.imgsL {
+  margin-right: 10px;
+}
+
+p {
+  background-color: white;
+  color: #000000;
+  /* Replace with the desired text color */
+  border: 1px solid rgb(199, 199, 199);
+  padding: 1px;
+  margin: 7px;
+}
+
+.ongcbtnmain {
+  margin-top: 54px;
+  margin-right: 16px;
+}
+
+.nav2flex {
+  /* margin-top: 7px;
+  margin-left: 42.5625rem; */
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-right: -31px;
+}
+
+/* -----hover------ */
+.text-gray-900 {
+  color: #000000;
+  /* Replace with your desired text color */
+  /* other styles */
+}
+
+/* Hover effect */
+.text-gray-900:hover {
+  color: #ffffff;
+  /* Replace with your desired hover text color */
+  text-decoration: underline;
+  /* You can customize the underline or remove it */
+}
+
+.roz .and canvas {
+  width: 10.875rem;
+  height: 10.875rem;
+  margin-left: 1.4375rem;
+}
+
+/* canvas {
+  
+} */
+.Paragraph {
+  background-color: whitesmoke;
+
+}
+
+.timt {
+  color: rgb(242, 242, 242);
+}
+
+/* login signup bg */
+/* .containerStyle {
+  background-image: url('https://images.unsplash.com/photo-1473308822086-710304d7d30c?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.upacity {
+  opacity: 93%;
+}
+
+.date-time-selector.RD {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
+}
+
+.containerStyle {
+  background-image: url('https://plus.unsplash.com/premium_photo-1682148012184-f51381dd28fe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* media query */
+@media (max-width: 768px) {
+  .nav2flex {
+    /* margin-left: 0.5625rem;
+    margin-top: 6px; */
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  .tablet {
+   
+    margin-left: 8.6875rem;
+  }
+}
+
+.TDCSS {
+  border: none;
+  text-align: right;
+  padding: 0px;
+  width: 186px;
+}
+
+.tablet {
+  margin-left: 13.6875rem;
+}
+
+.park{
+  background-image: url('https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bark{
+  border:1px solid black;
+}
+.RM2{
+  border: 2px solid #686868;
+  background-color: #FFA500;
+ height: 10%;
+}
+.Tempp{
+  background-color:white;
+  margin-left: 90px;
+  border: 2px solid #000; /* Replace #000 with the color of your choice */
+  
+}
+.buttonDecorative {
+  padding: 5px 4px;
+  font-size: 15px;
+  background-color: #708091;
+  color: #FFFFFF;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.Temp_Background{
+  background-image: url('https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.BGTemp{
+  background-image: url('https://images.unsplash.com/photo-1493476523860-a6de6ce1b0c3?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.download-button{
+  size: 5%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: outset;
+  border-radius: 2px;
+}
+
+
+.download{
+  height: 1.5rem;
+  width: 2rem;
+
+}
+.no-margin-left{
+  margin-left: -56px;
+}
+.top_left{
+  height: 5px;
+}
+.mt-2 {
+  margin-top: 0.2rem !important;
+}
+
+
+.User_Button{
+  margin-top: 55px;
+  margin-left: 89%;
+  font-size: x-large;
+  color:blue;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(255, 140, 0);
+}
+::-webkit-scrollbar-track{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 21%;
+  left: 1123px;
+  z-index: 1000;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1px;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+  background-color: #d60303;
+}
+
+.BsFastForwardCircleFill{
+  width: 4em;
+  margin-left: -11px;
+}
+.BsRewindCircleFill{
+  width: 2em;
+}
+
+
+
+.dropdown2-menu {
+  position: absolute;
+  top: 19%;
+  left: 24%;
+  z-index: 1000;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1px;
+}
+
+.dropdown2-menu li {
+  list-style: none; /* Remove default list style */
+}
+
+.dropdown2-menu li a {
+  display: block;
+  padding: 5px 10px;
+  color: #000; /* Set link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.dropdown2-menu li a:hover {
+  background-color: #d60303; /* Change background color on hover */
+  color: #000000; /* Change text color on hover */
+}
+
+.dashboard-button {
+  display: inline-block;
+  padding: 0px 7px; /* Adjust padding as needed */
+  background-color:rgb(255,165,0) ; /* Set button background color */
+  color: rgb(8, 8, 8); /* Set text color */
+  border: outset rgb(208, 206, 206); /* Set button border style to outset */
+  border-radius: 2px; /* Add border radius for rounded corners */
+  text-decoration: none; /* Remove default underline */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s; /* Add transition for smoother hover effect */
+  margin-top: -5px;
+}
+
+.dashboard-button:hover {
+  background-color:rgb(207, 203, 197) ; /* Change background color on hover */
+}
+.dashboard-button:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2); /* Add box-shadow for press effect */
+  transform: translateY(2px); /* Move the button down slightly on press */
+}
+.tempbar{
+  margin-top: -3px;
+}
+
+
+
+.popup-contents {
+  padding: 20px; /* Optional: Add padding inside the popup content */
+  width: 70%;
+  height: 35%;
+  margin: auto;
+}
+
+/* #updatebtn{
+padding: auto;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+} */

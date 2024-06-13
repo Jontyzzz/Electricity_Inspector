@@ -1,0 +1,24 @@
+.line-progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 0%;
+    overflow: hidden;
+  }
+  
+  .line-progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(to right, #007bff, #00ff00); /* Replace with your desired gradient colors */
+    animation: fillAnimation 2s ease-in-out forwards;
+  }
+  
+  
+  @keyframes fillAnimation {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  

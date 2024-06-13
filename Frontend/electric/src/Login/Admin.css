@@ -1,0 +1,56 @@
+.CTC {
+    margin: 20px auto;
+  }
+  
+  .CT {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #343434;
+  }
+  
+  .CT th, .CT td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #181818;
+  }
+  
+  .CTH {
+    background-color: #444444;
+    font-weight: bold;
+  }
+  
+  .CT tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .MY_ADMIN{
+    color: black;
+    text-shadow: 2px 2px 5px rgb(121, 121, 121);
+    margin-top: 18px;
+  }
+  
+  .ATH{
+    background-color: #343434;
+    position:sticky;
+  }
+  .BTH{
+    background-color: #343434;
+    position:sticky;
+    z-index: 1;
+  }
+
+/* .element.style{
+  position: fixed;
+  inset: 0px;
+  display: flex;
+  z-index: 999;
+  pointer-events: auto;
+  background-color: rebeccapurple;
+  width: 45%;
+  height: 55%;
+  margin-left: 383px;
+  top: 25%;
+} */
+
+
+

@@ -1,0 +1,17 @@
+.digital-watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .digit {
+    margin: 0 0.3rem;
+    padding: 0.3rem 0.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
